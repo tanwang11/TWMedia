@@ -23,6 +23,16 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BC3E7FCCFE96846B21BF8EB1 /* Pods_TWMedia_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A590D989145C5456076620C4 /* Pods_TWMedia_Tests.framework */; };
+		D1805E762601D59E00C3989A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D1805E722601D59E00C3989A /* .gitkeep */; };
+		D1805E772601D59E00C3989A /* TWMedia.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1805E742601D59E00C3989A /* TWMedia.bundle */; };
+		D1805E832601D77100C3989A /* PHAsset+data.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805E822601D77100C3989A /* PHAsset+data.m */; };
+		D1805E972601D9BF00C3989A /* TWImageEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805E962601D9BF00C3989A /* TWImageEntity.m */; };
+		D1805E9C2601DA4F00C3989A /* TWImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805E9B2601DA4F00C3989A /* TWImagePickerVC.m */; };
+		D1805EA12601DAA500C3989A /* TWImagePreviewCC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805EA02601DAA500C3989A /* TWImagePreviewCC.m */; };
+		D1805EA62601DAC500C3989A /* TWImagePreviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805EA52601DAC500C3989A /* TWImagePreviewVC.m */; };
+		D1805EAB2601DAF600C3989A /* TWMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805EAA2601DAF600C3989A /* TWMedia.m */; };
+		D1805EB02601DB0C00C3989A /* TWMediaImageBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805EAF2601DB0C00C3989A /* TWMediaImageBundle.m */; };
+		D1805EB62601DB5400C3989A /* TWVideoProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805EB52601DB5400C3989A /* TWVideoProvider.m */; };
 		EBC6030014C38B3C6AE5C427 /* Pods_TWMedia_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D24FAEAB868ADCE8A5B234 /* Pods_TWMedia_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30AE14DE8E5F0F5F1A8CCB91 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		30AE14DE8E5F0F5F1A8CCB91 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3396BAB14C162EF8071FD3DD /* Pods-TWMedia_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWMedia_Example.release.xcconfig"; path = "Target Support Files/Pods-TWMedia_Example/Pods-TWMedia_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3AFEBDEFC5023A1D09BD37E4 /* Pods-TWMedia_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWMedia_Tests.release.xcconfig"; path = "Target Support Files/Pods-TWMedia_Tests/Pods-TWMedia_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5D3D55BFFF31DA89789069EE /* Pods-TWMedia_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWMedia_Example.debug.xcconfig"; path = "Target Support Files/Pods-TWMedia_Example/Pods-TWMedia_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,10 +71,29 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		81A4FF2CC0F1258037E45F7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		81A4FF2CC0F1258037E45F7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A590D989145C5456076620C4 /* Pods_TWMedia_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWMedia_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBFC236BDF650A8FB7B1DCD9 /* TWMedia.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TWMedia.podspec; path = ../TWMedia.podspec; sourceTree = "<group>"; };
+		BBFC236BDF650A8FB7B1DCD9 /* TWMedia.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWMedia.podspec; path = ../TWMedia.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1805E722601D59E00C3989A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D1805E742601D59E00C3989A /* TWMedia.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TWMedia.bundle; sourceTree = "<group>"; };
+		D1805E812601D77100C3989A /* PHAsset+data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHAsset+data.h"; sourceTree = "<group>"; };
+		D1805E822601D77100C3989A /* PHAsset+data.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+data.m"; sourceTree = "<group>"; };
+		D1805E952601D9BF00C3989A /* TWImageEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWImageEntity.h; sourceTree = "<group>"; };
+		D1805E962601D9BF00C3989A /* TWImageEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWImageEntity.m; sourceTree = "<group>"; };
+		D1805E9A2601DA4F00C3989A /* TWImagePickerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWImagePickerVC.h; sourceTree = "<group>"; };
+		D1805E9B2601DA4F00C3989A /* TWImagePickerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWImagePickerVC.m; sourceTree = "<group>"; };
+		D1805E9F2601DAA500C3989A /* TWImagePreviewCC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWImagePreviewCC.h; sourceTree = "<group>"; };
+		D1805EA02601DAA500C3989A /* TWImagePreviewCC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWImagePreviewCC.m; sourceTree = "<group>"; };
+		D1805EA42601DAC500C3989A /* TWImagePreviewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWImagePreviewVC.h; sourceTree = "<group>"; };
+		D1805EA52601DAC500C3989A /* TWImagePreviewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWImagePreviewVC.m; sourceTree = "<group>"; };
+		D1805EA92601DAF600C3989A /* TWMedia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWMedia.h; sourceTree = "<group>"; };
+		D1805EAA2601DAF600C3989A /* TWMedia.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWMedia.m; sourceTree = "<group>"; };
+		D1805EAE2601DB0C00C3989A /* TWMediaImageBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWMediaImageBundle.h; sourceTree = "<group>"; };
+		D1805EAF2601DB0C00C3989A /* TWMediaImageBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWMediaImageBundle.m; sourceTree = "<group>"; };
+		D1805EB32601DB3F00C3989A /* TWMediaPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWMediaPrefix.h; sourceTree = "<group>"; };
+		D1805EB42601DB5400C3989A /* TWVideoProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWVideoProvider.h; sourceTree = "<group>"; };
+		D1805EB52601DB5400C3989A /* TWVideoProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWVideoProvider.m; sourceTree = "<group>"; };
 		E0D24FAEAB868ADCE8A5B234 /* Pods_TWMedia_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWMedia_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4BD5AE3391944FD5EDAD0E /* Pods-TWMedia_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWMedia_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TWMedia_Tests/Pods-TWMedia_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +161,8 @@
 		6003F593195388D20070C39A /* Example for TWMedia */ = {
 			isa = PBXGroup;
 			children = (
+				D1805E712601D59E00C3989A /* Assets */,
+				D1805E732601D59E00C3989A /* Classes */,
 				6003F59C195388D20070C39A /* TWAppDelegate.h */,
 				6003F59D195388D20070C39A /* TWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,8 +224,40 @@
 				FB4BD5AE3391944FD5EDAD0E /* Pods-TWMedia_Tests.debug.xcconfig */,
 				3AFEBDEFC5023A1D09BD37E4 /* Pods-TWMedia_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1805E712601D59E00C3989A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D1805E722601D59E00C3989A /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D1805E732601D59E00C3989A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D1805E742601D59E00C3989A /* TWMedia.bundle */,
+				D1805E812601D77100C3989A /* PHAsset+data.h */,
+				D1805E822601D77100C3989A /* PHAsset+data.m */,
+				D1805E952601D9BF00C3989A /* TWImageEntity.h */,
+				D1805E962601D9BF00C3989A /* TWImageEntity.m */,
+				D1805E9A2601DA4F00C3989A /* TWImagePickerVC.h */,
+				D1805E9B2601DA4F00C3989A /* TWImagePickerVC.m */,
+				D1805E9F2601DAA500C3989A /* TWImagePreviewCC.h */,
+				D1805EA02601DAA500C3989A /* TWImagePreviewCC.m */,
+				D1805EA42601DAC500C3989A /* TWImagePreviewVC.h */,
+				D1805EA52601DAC500C3989A /* TWImagePreviewVC.m */,
+				D1805EA92601DAF600C3989A /* TWMedia.h */,
+				D1805EAA2601DAF600C3989A /* TWMedia.m */,
+				D1805EAE2601DB0C00C3989A /* TWMediaImageBundle.h */,
+				D1805EAF2601DB0C00C3989A /* TWMediaImageBundle.m */,
+				D1805EB32601DB3F00C3989A /* TWMediaPrefix.h */,
+				D1805EB42601DB5400C3989A /* TWVideoProvider.h */,
+				D1805EB52601DB5400C3989A /* TWVideoProvider.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +322,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +344,8 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				D1805E762601D59E00C3989A /* .gitkeep in Resources */,
+				D1805E772601D59E00C3989A /* TWMedia.bundle in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -343,11 +409,29 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TWMedia_Example/Pods-TWMedia_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SKFCamera/SKFCamera.framework",
+				"${BUILT_PRODUCTS_DIR}/TWFoundation/TWFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/TWImageBrower/TWImageBrower.framework",
 				"${BUILT_PRODUCTS_DIR}/TWMedia/TWMedia.framework",
+				"${BUILT_PRODUCTS_DIR}/TWUI/TWUI.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKFCamera.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWImageBrower.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWMedia.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -385,7 +469,15 @@
 			files = (
 				6003F59E195388D20070C39A /* TWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TWViewController.m in Sources */,
+				D1805E832601D77100C3989A /* PHAsset+data.m in Sources */,
+				D1805E9C2601DA4F00C3989A /* TWImagePickerVC.m in Sources */,
+				D1805EAB2601DAF600C3989A /* TWMedia.m in Sources */,
+				D1805EB02601DB0C00C3989A /* TWMediaImageBundle.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D1805EB62601DB5400C3989A /* TWVideoProvider.m in Sources */,
+				D1805EA12601DAA500C3989A /* TWImagePreviewCC.m in Sources */,
+				D1805EA62601DAC500C3989A /* TWImagePreviewVC.m in Sources */,
+				D1805E972601D9BF00C3989A /* TWImageEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

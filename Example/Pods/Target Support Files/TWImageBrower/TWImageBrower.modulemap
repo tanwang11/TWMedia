@@ -1,0 +1,6 @@
+framework module TWImageBrower {
+  umbrella header "TWImageBrower-umbrella.h"
+
+  export *
+  module * { export * }
+}

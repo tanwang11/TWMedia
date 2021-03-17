@@ -1,0 +1,6 @@
+framework module TWMedia {
+  umbrella header "TWMedia-umbrella.h"
+
+  export *
+  module * { export * }
+}

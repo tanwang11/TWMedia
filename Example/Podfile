@@ -1,10 +1,22 @@
 use_frameworks!
 
+source 'https://github.com/tanwang11/TWSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '9.0'
 
 target 'TWMedia_Example' do
   pod 'TWMedia', :path => '../'
-
+  
+  pod 'TWImageBrower'
+  pod 'TWUI'
+  pod 'TWImageBrower'
+  pod 'Masonry'
+  pod 'TWFoundation'
+  pod 'TZImagePickerController'
+  pod 'SKFCamera'
+  pod 'ReactiveObjC'
+  
   target 'TWMedia_Tests' do
     inherit! :search_paths
 

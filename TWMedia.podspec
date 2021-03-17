@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TWMedia'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TWMedia.'
+  s.version          = '0.0.1'
+  s.summary          = 'TWMedia.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'TWMedia tool.'
 
   s.homepage         = 'https://github.com/tanwang11/TWMedia'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,13 +28,25 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TWMedia/Classes/**/*'
+  s.source_files = 'Example/TWMedia/Classes/*.{h,m}'
   
-  # s.resource_bundles = {
-  #   'TWMedia' => ['TWMedia/Assets/*.png']
-  # }
+  s.resource_bundles = {
+      'TWMedia' => ['Example/TWMedia/Classes/*.bundle']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.frameworks = 'UIKit', 'Photos', 'MobileCoreServices'
+  
+  s.dependency 'TWImageBrower'
+  s.dependency 'TWUI'
+  s.dependency 'TWImageBrower'
+  s.dependency 'Masonry'
+  s.dependency 'TWFoundation'
+  s.dependency 'TZImagePickerController'
+  s.dependency 'SKFCamera'
+  s.dependency 'ReactiveObjC'
+  
 end

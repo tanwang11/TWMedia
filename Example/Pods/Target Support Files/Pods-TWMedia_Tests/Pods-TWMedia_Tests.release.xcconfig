@@ -1,0 +1,14 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PLATFORM_DIR)/Developer/Library/Frameworks" "${PODS_CONFIGURATION_BUILD_DIR}/FBSnapshotTestCase" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/ReactiveObjC" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/SKFCamera" "${PODS_CONFIGURATION_BUILD_DIR}/TWFoundation" "${PODS_CONFIGURATION_BUILD_DIR}/TWImageBrower" "${PODS_CONFIGURATION_BUILD_DIR}/TWMedia" "${PODS_CONFIGURATION_BUILD_DIR}/TWUI" "${PODS_CONFIGURATION_BUILD_DIR}/TZImagePickerController"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ReactiveObjC/ReactiveObjC.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SKFCamera/SKFCamera.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TWFoundation/TWFoundation.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TWImageBrower/TWImageBrower.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TWMedia/TWMedia.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TWUI/TWUI.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TZImagePickerController/TZImagePickerController.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "CoreGraphics" -framework "CoreText" -framework "FBSnapshotTestCase" -framework "Foundation" -framework "ImageIO" -framework "MBProgressHUD" -framework "Masonry" -framework "MobileCoreServices" -framework "Photos" -framework "QuartzCore" -framework "ReactiveObjC" -framework "SDWebImage" -framework "SKFCamera" -framework "TWFoundation" -framework "TWImageBrower" -framework "TWMedia" -framework "TWUI" -framework "TZImagePickerController" -framework "UIKit" -framework "XCTest"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
