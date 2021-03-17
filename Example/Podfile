@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TWMedia_Example' do
+  pod 'TWMedia', :path => '../'
+
+  target 'TWMedia_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
